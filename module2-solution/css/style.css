@@ -1,0 +1,96 @@
+h1
+{
+	text-align: center;
+	font-family: fantasy;
+}
+*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color: #33ccff;
+}
+section
+{
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.p1,.p2, .p3
+{
+	width: 90%;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+.p1{
+	background-color: orange;
+}
+.p2{
+	background-color: #f2f2f2;
+}
+.p3{
+	background-color: lightgreen;
+}
+.row
+{
+	width: 100%;
+}
+@media(min-width: 992px)
+{
+	.col-lg{
+		width: 33%;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.col-md1{
+		float: left;
+		width: 50%;
+	}
+	.col-md2{
+		float: left;
+		width: 100%;
+	}
+	.p2{
+		width: 95%;
+	}
+}
+@media(max-width: 767px)
+{
+	.col-sm{
+		width: 100%;
+		float: left;
+	}
+}
+.momos,.noodles,.dosa
+{
+	border: 1px solid black;
+	float: right;
+	height: 30px;
+	width: 120px;
+	position: relative;
+	left: 10px;
+	top: -26px;
+	margin-bottom: 0px;
+	font-family: "Comic Sans MS" ,cursive ,sans-serif;
+	text-align: center;
+}
+.momos
+{
+	background-color: #FADBD8;
+}
+.noodles
+{
+	background-color: #A52A2A;
+
+}
+.dosa
+{
+	background-color: #DEB887;
+}
+p
+{
+	clear: right;
+}
