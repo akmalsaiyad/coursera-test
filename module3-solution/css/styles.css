@@ -1,0 +1,56 @@
+/*Style little bit*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(to bottom, #00ffff -36%, #ff99cc 100%);
+}
+
+#nav-list > li {
+    text-align: center;
+    
+}
+#text > h3 {
+    margin-bottom: 15px;
+}
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+}
+
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+}
+
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+
+#section-1{
+    background-color: #f6b319;
+}
+
+#section-2 {
+    background-color:#ffffcc;
+}
+
+#section-3 {
+    background-color: #339933;
+}
+.col-lg-4, .col-md-6, .col-xs-12, .col-md-12{
+
+  font-size: 2vw;
+  font-family: sans-serif;
+}
+.col-lg-4, .col-md-6, .col-xs-12, .col-lg-12 h2{
+  text-align: center;
+}
+
+@media (max-width:768px) {
+  .col-lg-4, .col-md-6, .col-xs-12, .col-md-12 {
+    font-size: 24px;
+  }
+}
