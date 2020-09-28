@@ -1,0 +1,74 @@
+<!—Created on 27 sept 2020 : Saiyad M Akmal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>jhamkudi ka project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://v4-alpha.getbootstrap.com/examples/grid/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="container.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </head>
+<style>
+  body{
+    background-height: 100vh;
+   background: #66ffff;
+  background-size:cover;
+  background-attachment: fixed;
+    }
+    .btn{
+      color:white !important;
+      background: yellow;
+    }
+    .para{
+      color:black;
+      font-size:24px;
+      border:0px;
+      background-color: #66ffff
+    }
+</style>
+  <body>
+
+          <!--li><button type="button" name="button"><a href="#">Register</a></button></li-->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 para">
+          <div class="container-fluid card">
+              Click the button to download <u>notes</u><br>
+              <button type="button" name="button" class="btn"><a href="problem statement.docx" download>download</a></button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 para">
+          <div class="container-fluid card">
+              Click the button to download <u>image</u><br>
+              <button type="button" name="button" class="btn"><a href="trio.jpg" download>download</a></button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 para">
+          <div class="container-fluid card">
+              Click the button to download <u>Source Code</u><br>
+              <button type="button" name="button" class="btn"><a href="src.txt" download>download</a></button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 para">
+          <div class="container-fluid card">
+            Click the button to download <u>syllabus</u><br>
+            <button type="button" name="button" class="btn"><a href="syllabus.pdf" download>download</a></button>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+</html>
